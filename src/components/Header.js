@@ -1,30 +1,46 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem } from 'reactstrap';
 
 // The Header creates links that can be used to navigate
 // between routes.
 const Header = () => (
 
-  <header>
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
+  <Navbar color="dark" light expand="md" >
+  <NavbarBrand href="/">HOME</NavbarBrand>
+  
+    <Nav className="mr-auto" navbar>
+      <NavItem>
+        <NavLink tag={Link} to="/list">
+      Lista
 
-        <li>
-          <Link to="/upload">upload</Link>
-        </li>
-        <li>
-          <Link to="/list">list</Link>
-        </li>
-        <li>
-          <Link to="/map">map</Link>
-        </li>
-      </ul>
-    </nav>
-  </header>
+        </NavLink>
+      </NavItem>
+      
+
+      <NavItem>
+        <NavLink href="/upload">Zgłoś zgubę</NavLink>
+      </NavItem>
+      <UncontrolledDropdown nav inNavbar>
+      <NavItem>
+        <NavLink tag={Link} to="/map">Mapa</NavLink>
+      </NavItem>
+
+      </UncontrolledDropdown>
+    </Nav>
+  
+</Navbar>
 
 );
 
