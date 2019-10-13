@@ -8,7 +8,7 @@ const List = (props)=>{
         <div>
             {props.data.map((item,index) => (
             <li key={index}>
-                    <Link to={`/list/${index}`}>{item.name.first}</Link>
+                    <Link to={`/list/${index}`}>{item.name}</Link>
             </li>
           ))}
         </div>
