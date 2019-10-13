@@ -36,7 +36,6 @@ class Form extends Component {
       return { latitude: el.lat, longitude: el.lng };
     });
 
-
     console.log(tsinglePins, "po");
 
     fetch("/api/event", {
@@ -93,3 +92,4 @@ class Form extends Component {
 }
 
 export default Form;
+
