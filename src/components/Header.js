@@ -17,6 +17,7 @@ import {
 // between routes.
 const Header = () => (
 
+
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/">HOME</NavbarBrand>
         
@@ -30,14 +31,14 @@ const Header = () => (
               <NavLink href="/upload">Mapa</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
-
+            <NavItem>
+              <NavLink href="/upload">map</Link>
+            </NavItem>
 
             </UncontrolledDropdown>
           </Nav>
         
       </Navbar>
-    
-
 );
 
 export default Header;
