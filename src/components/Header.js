@@ -17,6 +17,9 @@ const Header = () => (
         <li>
           <Link to="/list">list</Link>
         </li>
+        <li>
+          <Link to="/map">map</Link>
+        </li>
       </ul>
     </nav>
   </header>
