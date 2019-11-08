@@ -1,3 +1,24 @@
+# Pełna dokumentacja
+
+Lost Found is a platform created for WawCode Hackathon 
+I, Maciej Jałocha, was responsible for frontend logic, which is built in React JS.
+### Co to?
+
+Lost Found helps you find important, lost things like documents, credit cards and other things.
+A person who has lost something can post a notification that includes a place, description, reward for finding and locating on a loss map.
+An unusual feature is a huge map with all the lost things in the city marked, so you can easily navigate around it, and for example, check if there are lost things in your area, go back to the owner and get a reward!
+
+Here is the repo with backend
+https://github.com/mixnix/lostFound
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
